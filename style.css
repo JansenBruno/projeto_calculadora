@@ -1,0 +1,42 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+.btn { 
+  width: 60px;
+  height: 60px;
+  font-size: 15px;
+  margin: 2px;
+  cursor:pointer;
+  border: none;
+  color: whitesmoke;
+  background:#2d2d2d;
+  transition-duration: 0.4s;
+}
+
+
+.btn:hover {
+  background-color: whitesmoke;
+  color:black;
+}
+
+body { 
+  
+  background: linear-gradient(to right, black,white);
+  height: 100%;
+}
+
+.display{ 
+  color: red;
+}
+
+.main{ 
+  color:whitesmoke;
+  border-radius: 20px;
+  font-size: 40px;
+  width: 50%;
+  margin-left: 250px;
+  padding: 200px;
+  
+}
